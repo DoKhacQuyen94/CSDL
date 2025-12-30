@@ -12,9 +12,9 @@ values("101","Lập trình C căn bản","Nguyễn Văn A","2018"),
 ("104","Hệ quản trị MySQL","Phạm Văn D","2021");
 
 insert into borrow(reader_id, book_id,borrow_date,return_date)
-values("1","101","2024-09-15","NULL"),
+values("1","101","2024-09-15",NULL),
 ("1","102","2024-09-15","2024-09-25"),
-("2","103","2024-09-18","NULL");
+("2","103","2024-09-18",NULL);
 
 UPDATE Borrow
 SET return_date = '2024-10-01'
